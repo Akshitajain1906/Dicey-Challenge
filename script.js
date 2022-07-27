@@ -18,5 +18,8 @@ else
 }
 
 function reset(){
-document.getElementById("1").setAttribute("src","images/dice6.png")
+    document.getElementById("1").setAttribute("src","images/dice6.png")
+    document.getElementById("2").setAttribute("src","images/dice6.png")
+    document.querySelector("h1").innerHTML="Click Below😊";
+
 }
